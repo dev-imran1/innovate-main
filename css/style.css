@@ -38,6 +38,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: var(--font-heading);
     font-weight: var(--semi-bold);
     color: var(--secondary-color);
+    text-transform: capitalize;
 }
 .common__peragraph{
     font-family: var(--nunito);
@@ -332,8 +333,252 @@ h1,h2,h3,h4,h5,h6,p{
 /* =======================Common Css=====================>> */
 
 
+/* =======================work css=====================>> */
+#work{
+    padding: 120px 0;
+    position: relative;
+}
+/* .work__content{
+    display: flex;
+
+} */
+.work__title{
+    font-family: var(--popins);
+    font-size: 20px;
+    font-weight: var(--medum);
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.common__heading--modifi{
+    width: 693px;
+    line-height: 140%;
+    margin-top: 10px;
+}
+.work__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.work__app{
+    display: flex;
+    column-gap: 25px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.work__app-left{
+    height: 458px;
+    width: 575px;
+}
+.work__app-right{
+    height: 458px;
+    width: 810px;
+}
+.work__image{
+    width: 100%;
+    height: 331px;
+}
+
+.work__image img{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.work__image-content{
+    width: 100%;
+    height: 127px;
+    box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.06);
+    padding: 30px 385px 30px 30px;
+}
+.work__image-title{
+    font-family: var(--popins);
+    font-size: var(--font-xxl);
+    font-weight: var(--semi-bold);
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.work__image-btn{
+    font-family: var(--nunito);
+    font-size: var(--font-xl);
+    font-weight: var(--normal);
+    color: var(--primary-color);
+    display: inline-block;
+}
+.work__shape-top{
+    position: absolute;
+    top: -215px;
+    left: 0;
+    z-index: -1;
+}
+.work__shape-bottom{
+    position: absolute;
+    bottom: 45px;
+    right: 113px;
+}
+
+/* =======================work css=====================>> */
+
+/* =======================count Css=====================>> */
+#count{
+    padding: 100px 0;
+    background-color: #FDF9F8;
+}
+.count__wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    row-gap: 30px;
+}
+.count__left{
+    width: 40%;
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+.count__box{
+    width: 259px;
+    height: 230px;
+    background-color: white;
+    padding: 74px 60px;
+    text-align: center;
+}
+.count__right{
+    width: 50%;
+}
+.count__box-title{
+    font-family: var(--popins);
+    font-size: 40px;
+    font-weight: var(--semi-bold);
+    color: var(--secondary-color);
+}
+.count__box-content{
+    font-family: var(--nunito);
+    font-size: var(--font-xl);
+    font-weight: var(--normal);
+    color: var(--secondary-color);
+    margin-top: 10px;
+}
+.common__heading--count{
+    width: 570px;
+    line-height: 140%;
+}
+.common__peragraph--count{
+    width: 550px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* =======================count Css=====================>> */
+
+/* =======================company Css=====================>> */
+#company{
+    padding: 120px 0;
+}
+.common__heading--comapny{
+    width: 849px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+.company__logo{
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+.company__logo--box{
+    padding: 53px 53px 53px 35px;
+    background-color: #FDF9F8;
+}
+/* =======================company Css=====================>> */
+
+/* =======================customer Css=====================>> */
+#customer{
+    padding: 120px;
+    background-color: #FDF9F8;
+}
+.customer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+.customer__left{
+    width: 50%;
+    border-color: #29313D;
+}
+.icon__wrapper{
+    display: flex;
+    column-gap: 28px;
+}
+.customer__box{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #C4C4C4;
+    margin-top: 60px;
+}
+.customer__box-icon{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 40%;
+    color: white;
+    font-weight: var(--bold);
+}
+.customer__left .common__peragraph{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.customer__angle{
+    display: flex;
+    column-gap: 8px;
+    text-align: center;
+    align-items: center;
+}
+.customer__angle-box{
+    width: 64px;
+    height: 64px;
+    background-color: #FFDDD7;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+}
+.customer__angle-box:hover{
+    background-color: var(--primary-color);
+}
+/* .customer__angle-box i{
+    color: red;
+    font-weight: bold;
+} */
+.customer__right{
+    width: 50%;
+}
+.customer__right-box{
+    height: 557px;
+    width: 501px;
+}
+.customer__right-box img{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+/* =======================customer Css=====================>> */
+
+/* =======================Common Css=====================>> */
 /* =======================Common Css=====================>> */
 
+/* =======================Common Css=====================>> */
+/* =======================Common Css=====================>> */
+
+/* =======================Common Css=====================>> */
+/* =======================Common Css=====================>> */
+
+/* =======================Common Css=====================>> */
 /* =======================Common Css=====================>> */
 
 
