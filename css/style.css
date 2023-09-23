@@ -500,6 +500,7 @@ h1,h2,h3,h4,h5,h6,p{
 #customer{
     padding: 120px;
     background-color: #FDF9F8;
+    position: relative;
 }
 .customer__wrapper{
     display: flex;
@@ -513,6 +514,13 @@ h1,h2,h3,h4,h5,h6,p{
 .icon__wrapper{
     display: flex;
     column-gap: 28px;
+}
+.customer__angle-content h5{
+    font-family: var(--open-sans);
+    font-size: var(--font-xxl);
+    font-weight: var(--bold);
+    padding-right: 40px;
+    text-transform: capitalize;
 }
 .customer__box{
     height: 100px;
@@ -567,16 +575,118 @@ h1,h2,h3,h4,h5,h6,p{
     height: 100%;
     border-radius: 30px;
 }
+.customer_shape{
+    position: absolute;
+    left: 10px;
+    bottom: 10%;
+}
 /* =======================customer Css=====================>> */
 
-/* =======================Common Css=====================>> */
-/* =======================Common Css=====================>> */
+/* =======================talk Css=====================>> */
+#talk{
+    padding: 120px 0;
+    background-color: #FFD7C8;
+    position: relative;
+    z-index: 999;
+}
+.talk__titel{
+    font-family: var(--font-xl);
+    font-size: var(--font-xl);
+    color: var(--secondary-color);
+    font-weight: var(--normal);
+    margin-bottom: 10px;
+    position: relative;
+}
+.talk__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 72px;
+}
+.talk__titel::after{
+    position: absolute;
+    content: " ";
+    height: 1px;
+    width: 100%;
+    bottom: -122px;
+    left: 0;
+    background-color:var(--secondary-color);
+    opacity: 0.2;
+}
+.shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+/* =======================talk Css=====================>> */
 
-/* =======================Common Css=====================>> */
-/* =======================Common Css=====================>> */
 
-/* =======================Common Css=====================>> */
-/* =======================Common Css=====================>> */
+/* =======================footer Css=====================>> */
+#footer{
+    padding: 140px 0 57px 0;
+    background-color: #fff;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 150px;
+}
+.footer_wrapper-left{
+    width: 479px;
+}
+.footer_wrapper-right{
+    display: flex;
+    column-gap: 160px;
+    width: 750pxpx;
+}
+.common__peragraph--padding{
+    margin-top: 44px;
+}
+.footer__menu-titel{
+    font-family: var(--popins);
+    font-size: 24px;
+    font-weight: var(--semi-bold);
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.footer__item{
+    padding-bottom: 30px;
+}
+/* .footer__item:hover{
+    color: var(--popins);
+} */
+.footer__item:last-child{
+    padding-bottom: 0px;
+}
+.footer__list{
+    font-family: var(--nunito);
+    font-weight: var(--semi-bold);
+    font-size: var(--font-xl);
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.footer__list:hover{
+    color: var(--primary-color);
+}
+
+/* =======================footer Css=====================>> */
+
+/* =======================copywrite Css=====================>> */
+.copywrite{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.copywrite__right{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+/* =======================copy write Css=====================>> */
 
 /* =======================Common Css=====================>> */
 /* =======================Common Css=====================>> */
