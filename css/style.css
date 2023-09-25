@@ -528,6 +528,10 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 20px;
     background-color: #C4C4C4;
     margin-top: 60px;
+    transition: all linear 0.3s;
+}
+.customer__box:hover{
+    background-color: blueviolet;
 }
 .customer__box-icon{
     font-size: 25px;
@@ -553,14 +557,18 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #FFDDD7;
     border-radius: 8px;
     transition: all linear 0.3s;
+    position: relative;
 }
 .customer__angle-box:hover{
-    background-color: var(--primary-color);
+    background-color: blueviolet;
+    color: #fff;
 }
-/* .customer__angle-box i{
-    color: red;
-    font-weight: bold;
-} */
+.customer__angle-box i{
+    top: 36%;
+    position: absolute;
+    left: 43%;
+    text-align: center;
+}
 .customer__right{
     width: 50%;
 }
